@@ -1,0 +1,69 @@
+@media (max-width: 575.98px) {
+    section>h1 {
+        text-align: center;
+        font-family: montserrat;
+        width: 100%;
+        font-size: 5vw;
+        max-width: 575px;
+        margin: 0 auto;
+        color: green
+    }
+
+    p {
+
+        font-family: Montserrat;
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    .imagenPrincipalNos>img {
+        width: 100%;
+    }
+
+    .calidadDiv {
+        font-family: montserrat;
+    }
+
+    .calidadDiv>div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: montserrat;
+    }
+
+    .calidadDiv>div:nth-child(1)>h2 {
+        font-size: 5vw;
+        color:green
+    }
+
+    .calidadDiv>div:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .calidadDiv>div:nth-child(2)>div:nth-child(1) {
+        width: 50%;
+    }
+
+    .calidadDiv>div:nth-child(2)>div:nth-child(2) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagesCollage {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+@media (min-width: 1200px) {}
